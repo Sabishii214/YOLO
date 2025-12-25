@@ -8,14 +8,14 @@ YOLO Object Detection(YOLOv8)
 This project performs **object detection on a video** using **YOLOv8 (Ultralytics)** inside a **Docker container**.  
 It processes an input video, detects objects frame-by-frame, and generates:
 
-- 🎥 An **annotated output video**
-- 📄 A **text file containing detection details**
+-  An **annotated output video**
+-  A **text file containing detection details**
 
 The entire pipeline runs inside Docker for **easy setup and reproducibility**.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 YOLO/
@@ -40,7 +40,7 @@ YOLO/
 │
 └── README.md
 ```
-## 🧠 What This Project Does
+## What This Project Does
 
 1. Reads a video from the `input/` folder  
 2. Runs **YOLOv8n** (nano model) on every frame  
@@ -51,7 +51,7 @@ YOLO/
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 Make sure you have:
 
@@ -59,10 +59,10 @@ Make sure you have:
 - **VS Code (recommended)**
 - **Windows / macOS / Linux**
 
-> ⚠️ No Python installation needed on host (Docker handles everything)
+> No Python installation needed on host (Docker handles everything)
 
 ---
-## 📊 Example Output (Terminal)
+## Example Output (Terminal)
 
 ```text
 Input video found
@@ -80,7 +80,7 @@ Total objects detected: 11119
 
 ---
 
-## 📂 Output Files
+## Output Files
 
 After completion, check:
 
@@ -90,7 +90,7 @@ output/
 └── output-video.txt   # Detection details
 ```
 
-### 📄 Output Text File Format
+### Output Text File Format
 
 ```text
 frame_no,detection_no,class,x,y,width,height,confidence
@@ -111,7 +111,7 @@ frame_no,detection_no,class,x,y,width,height,confidence
 
 ---
 
-## 🧪 Model Information
+## Model Information
 
 - **Model:** YOLOv8n (Nano)
 - **Framework:** Ultralytics YOLOv8
@@ -120,7 +120,7 @@ frame_no,detection_no,class,x,y,width,height,confidence
 
 ---
 
-## 🐳 Docker Details
+## Docker Details
 
 - Base Image: `python:3.9`
 - Packages installed:
@@ -131,29 +131,10 @@ frame_no,detection_no,class,x,y,width,height,confidence
 
 ---
 
-## ✅ Advantages of Using Docker
-
-- No dependency conflicts
-- Same results on any machine
-- Easy to submit for assignments
-- Clean and reproducible setup
-
----
-
-## 📝 Notes
+## Notes
 
 - First run may take longer (model download)
 - Processing time depends on video length and resolution
 - Output folder is created automatically if missing
-
----
-
-## 👨‍🎓 Academic Use
-
-This project is suitable for:
-- Computer Vision assignments
-- Docker practical exams
-- YOLO / Object Detection demos
-- Pokhara University submissions
 
 ---
