@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo ""
+echo "YOLO Object Detector - Docker Image Info"
+echo ""
+echo "Using locally built image: yolo-detector:latest"
+echo ""
+echo "This project uses a custom-built Docker image."
+echo "To build the image, follow these steps:"
+echo ""
+echo "1. Open terminal/command prompt"
+echo "2. Navigate to the docker directory:"
+echo "   cd docker"
+echo "3. Run the build script:"
+echo "   docker run --rm -v "D:\VS Code\YOLO:/app" -w /app -it yolo-detector ./scripts/run-detector.sh"
+echo ""
+echo "The image will be built locally on your machine."
+echo ""
