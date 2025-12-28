@@ -7,8 +7,8 @@ Version: Latest (installed via pip)
 Installation method:
 python -m pip install ultralytics opencv-python
 
-Model used: YOLOv8n (nano)
-Model file: yolov8n.pt (auto-downloaded on first run)
+Model used: YOLOv8n (nano) or YOLOv8l
+Model file: yolov8n.pt or yolov8l.pt (auto-downloaded on first run)
 
 Official Documentation: https://docs.ultralytics.com/
 
@@ -21,7 +21,7 @@ cd "D:\VS Code\YOLO\docker"
 bash build-docker.sh
 # Wait until it says: “Docker image built successfully! Image name: yolo-detector:latest”
 
-In VS Code terminal: from project root (D:\VS Code\YOLO)= change dir
+In VS Code terminal: from project root (D:\VS Code\YOLO) = change Directory
 docker run --rm -v "D:\VS Code\YOLO:/app" -w /app -it yolo-detector ./scripts/run-detector.sh
 
 To run webcam:(q to exit)
