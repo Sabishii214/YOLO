@@ -104,4 +104,6 @@ for video_path in video_paths:
 
     print(f"Finished {video_path.name}: {frame_no} frames, {total_detections} objects detected\n")
 
-print("=== All videos processed successfully ===")
+print("All videos processed successfully")
+
+EOF

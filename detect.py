@@ -1,5 +1,3 @@
-print("=== detect.py started ===")
-
 import sys
 from pathlib import Path
 import cv2
@@ -94,7 +92,7 @@ out_video.release()
 txt_file.close()
 cv2.destroyAllWindows()
 
-print("\n=== Detection completed ===")
+print("\nDetection completed")
 print(f"Total frames processed: {frame_no}")
 print(f"Total objects detected: {total_detections}")
 print(f"Video saved to: {video_output_path}")
