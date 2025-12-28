@@ -1,5 +1,5 @@
 
-# Project Title
+# Object Detection using YOLOv8
 
 A brief description of what this project does and who it's for
 
@@ -38,6 +38,7 @@ YOLO/
 ├── git/
 │   └── git-info.txt
 │
+├──detect.py
 └── README.md
 ```
 ## What This Project Does
