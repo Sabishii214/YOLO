@@ -1,0 +1,31 @@
+======================================================================
+PERFORMANCE REPORT - webcam
+======================================================================
+
+SPEED METRICS:
+   Total Frames: 314
+   Total Time: 27.90s
+   Average FPS: 11.25
+   Avg Inference: 67.23ms +/- 114.38ms
+   Min Inference: 46.09ms
+   Max Inference: 2083.49ms
+
+DETECTION METRICS:
+   Total Detections: 636
+   Avg Detections/Frame: 2.03
+   Avg Confidence: 0.656 (65.6%)
+   Confidence Std Dev: 0.229
+
+CONFIDENCE DISTRIBUTION:
+   High (>=0.7): 323 (50.8%)
+   Medium (0.4-0.7): 182 (28.6%)
+   Low (<0.4): 131 (20.6%)
+
+TOP DETECTED CLASSES:
+   person         :   321 | Avg Conf: 0.852
+   chair          :   167 | Avg Conf: 0.430
+   cell phone     :    73 | Avg Conf: 0.554
+   cup            :    66 | Avg Conf: 0.421
+   wine glass     :     7 | Avg Conf: 0.407
+
+======================================================================

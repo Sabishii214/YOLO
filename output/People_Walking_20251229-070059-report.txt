@@ -1,0 +1,31 @@
+======================================================================
+PERFORMANCE REPORT - People_Walking
+======================================================================
+
+SPEED METRICS:
+   Total Frames: 341
+   Total Time: 373.83s
+   Average FPS: 0.91
+   Avg Inference: 1004.60ms +/- 204.35ms
+   Min Inference: 876.92ms
+   Max Inference: 4257.01ms
+
+DETECTION METRICS:
+   Total Detections: 10189
+   Avg Detections/Frame: 29.88
+   Avg Confidence: 0.581 (58.1%)
+   Confidence Std Dev: 0.185
+
+CONFIDENCE DISTRIBUTION:
+   High (>=0.7): 3309 (32.5%)
+   Medium (0.4-0.7): 4569 (44.8%)
+   Low (<0.4): 2311 (22.7%)
+
+TOP DETECTED CLASSES:
+   person         :  9110 | Avg Conf: 0.600
+   handbag        :   674 | Avg Conf: 0.451
+   backpack       :   303 | Avg Conf: 0.367
+   frisbee        :    57 | Avg Conf: 0.377
+   tennis racket  :    40 | Avg Conf: 0.365
+
+======================================================================
